@@ -2,12 +2,45 @@
 <html>
 <head>
 	<title>Scoobie-Doo</title>
+	<link rel="icon" href="img/scoobie-avatar_70.png">
 </head>
 <body>
-
+	<!-- header element -->
 	<header>
-		<img src="data:image/png;base64,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">
+		<img src="img/scoobie-avatar.png">
+		<h1>Scoobie-Doo</h1>
 	</header>
+
+	<!-- main element -->
+	<main>
+		<h2>About Scoobie</h2>
+		<p>Scoobie is a dog, a very big dog, who's hobbies include becoming very scared and jumping into the arms of his best friend Shaggy. He is part of the famous mystery solving meddling kids group known as the mystery machine.</p>
+		<img src="img/scoobie-friends.png">
+		<p>Scoobie and Gang</p>
+
+		<!-- Characteristics -->
+		<h2>Scoobie's Characteristics</h2>
+		<ol>
+			<li>He's got the munchies</li>
+			<li>He's got the snacc</li>
+			<li>He's got the floats for food</li>
+		</ol>
+
+		<!-- Scoobie's Friends -->
+		<h2>Scoobie's Friends</h2>
+		<p>Scoobie is part of gang that is notorious for their meddling in nefarious affairs. These heroes include:</p>
+		<ul>
+			<li><a target="_blank" href="https://en.wikipedia.org/wiki/Shaggy_Rogers">Shaggy Rodgers</a></li>
+			<li><a target="_blank" href="https://en.wikipedia.org/wiki/Velma_Dinkley">Velma Dinkley</a></li>
+			<li><a target="_blank" href="https://en.wikipedia.org/wiki/Fred_Jones_(Scooby-Doo)"
+			>Fred Jones</a></li>
+			<li><a target="_blank" href="https://en.wikipedia.org/wiki/Daphne_Blake">Daphne Blake</a></li>
+		</ul>
+	</main>
+
+	<footer>
+		<p>This site was created during a Tap Tap Kaboom class. &copy; Sid</p>
+	</footer>
 
 </body>
 </html>
